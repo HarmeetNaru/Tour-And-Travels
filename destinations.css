@@ -1,0 +1,73 @@
+/* Add styles for destination grid */
+header {
+    background-color: #483D8B;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.help {
+    margin-right: 20px;
+}
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+    padding: 20px;
+}
+
+.destination-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: 0px;
+    transition: transform 0.3s ease;
+    padding-top: 50px;
+    margin-top: 80px;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+}
+
+.destination-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.destination-card h2,
+.destination-card p {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Additional styling as needed */

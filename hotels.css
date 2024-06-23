@@ -1,0 +1,81 @@
+/* Additional or modified styles for the Hotels page */
+header {
+    background-color: #483D8B;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.help {
+    margin-right: 20px;
+}
+.hotel-booking {
+    padding: 20px;
+    
+}
+
+.hotel-booking form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.hotel-booking label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.hotel-booking input[type="date"],
+.hotel-booking input[type="number"],
+.hotel-booking input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hotel-booking input[type="submit"] {
+    background-color: #483D8B;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hotel-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.hotel-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
